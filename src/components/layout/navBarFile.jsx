@@ -1,5 +1,8 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
+import ContactPages from '../pages/contactpages'
+import HomePageFunc from '../pages/homePage'
+import ServicesPage from '../pages/servicesPage'
 
 function NavBar() {
   return (
@@ -41,36 +44,36 @@ function NavBar() {
       </button>
       <div className="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-10">
         <Link
-          to="#"
+          to="/home"
           title=""
           className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
         >
           {" "}
-          Features{" "}
+          Home{" "}
         </Link>
         <Link
-          to="#"
+          to="/services"
           title=""
           className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
         >
           {" "}
-          Solutions{" "}
+          Services{" "}
         </Link>
         <Link
-          to="#"
+          to="/contact"
           title=""
           className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
         >
           {" "}
-          Resources{" "}
+          Contact{" "}
         </Link>
         <Link
-          to="#"
+          to="/about"
           title=""
           className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
         >
           {" "}
-          Pricing{" "}
+          About{" "}
         </Link>
       </div>
       <div className="hidden lg:flex lg:items-center lg:space-x-10">
@@ -88,7 +91,7 @@ function NavBar() {
           className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
         >
           {" "}
-          Sign in{" "}
+          Book Now{" "}
         </Link>
       </div>
     </nav>
