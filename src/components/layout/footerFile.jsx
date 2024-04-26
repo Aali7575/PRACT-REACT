@@ -7,11 +7,11 @@ function Footer() {
     <div>
       <footer className="py-12 bg-white sm:py-16 lg:py-20">
   <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-    <img
+    {/* <img
       className="w-auto h-8 mx-auto"
-      src="https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg"
+      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fat.pinterest.com%2Fpin%2F556968678892335601%2F&psig=AOvVaw0t3xgDE4o_XLIAhDt6gkJ3&ust=1714258730118000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDlsMf94IUDFQAAAAAdAAAAABAE"
       alt=""
-    />
+    /> */}
     <ul className="flex flex-wrap items-center justify-center space-x-12 md:space-x-16 mt-14">
       <li>
         <Link

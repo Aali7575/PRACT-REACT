@@ -3,6 +3,7 @@ import Home from '../app/homeFile'
 import FrequentlyAskedQ from '../app/frequent'
 import HappyClients from '../app/happy'
 import CallTo from './callto'
+import TransparencyPage from './transparencypage'
 
 function HomePageFunc() {
   return (
@@ -10,6 +11,7 @@ function HomePageFunc() {
       {/* <Home/> */}
       <CallTo/>
       <HappyClients/>
+      <TransparencyPage/>
       <FrequentlyAskedQ/>
     </div>
   )

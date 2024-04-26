@@ -14,10 +14,11 @@ function FrequentlyAskedQ() {
   <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
     <div className="max-w-2xl mx-auto text-center">
       <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-        Frequently Asked Questions
+        How do l book for an appointment?
       </h2>
       <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+        You book by letting me know the exact date and time you'd like to bring 
+        your vehicle and you send your vehicle's registration number too.
       </p>
     </div>
     <div className="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">

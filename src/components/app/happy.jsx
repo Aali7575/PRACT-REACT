@@ -10,10 +10,10 @@ function HappyClients() {
     <div className="flex flex-col items-center">
       <div className="text-center">
         <p className="text-lg font-medium text-gray-600 font-pj">
-          2,157 people have said how good Rareblocks
+          
         </p>
         <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">
-          Our happy clients say about us
+          What our clients say about us
         </h2>
       </div>
       <div className="mt-8 text-center md:mt-16 md:order-3">
@@ -22,8 +22,8 @@ function HappyClients() {
           title=""
           className="pb-2 text-base font-bold leading-7 text-gray-900 transition-all duration-200 border-b-2 border-gray-900 hover:border-gray-600 font-pj focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 hover:text-gray-600"
         >
-          {" "}
-          Check all 2,157 reviews{" "}
+          {/* {" "}
+          Check all 2,157 reviews{" "} */}
         </Link>
       </div>
       <div className="relative mt-10 md:mt-24 md:order-2">
@@ -84,9 +84,8 @@ function HappyClients() {
                 </div>
                 <blockquote className="flex-1 mt-8">
                   <p className="text-lg leading-relaxed text-gray-900 font-pj">
-                    “You made it so simple. My new site is so much faster and
-                    easier to work with than my old site. I just choose the
-                    page, make the change.”
+                    “The entire experience at Mazda Cx-5 Specialist Zimbabwe was top notch. They were honest and upfront about what needed repairs on my CX-3. I trust that they used genuine Mazda parts and
+                     I'm happy to have my car back in such great condition. I'll definitely return for future service needs.”
                   </p>
                 </blockquote>
               </div>
@@ -154,8 +153,8 @@ function HappyClients() {
                 </div>
                 <blockquote className="flex-1 mt-8">
                   <p className="text-lg leading-relaxed text-gray-900 font-pj">
-                    “Simply the best. Better than all the rest. I’d recommend
-                    this product to beginners and advanced users.”
+                    “From the moment I brought my Demio in, the team at Mazda Cx-5 Specialist Zimbabwe went above and beyond to ensure I was fully satisfied. They repaired an issue quickly and even checked additional things proactively. Their
+                     excellent customer service and Mazda expertise have definitely earned my loyalty and recommendation”
                   </p>
                 </blockquote>
               </div>
@@ -223,8 +222,7 @@ function HappyClients() {
                 </div>
                 <blockquote className="flex-1 mt-8">
                   <p className="text-lg leading-relaxed text-gray-900 font-pj">
-                    “I cannot believe that I have got a brand new landing page
-                    after getting Omega. It was super easy to edit and publish.”
+                    “Would definitely recommend”
                   </p>
                 </blockquote>
               </div>
