@@ -239,7 +239,7 @@ function Footer() {
       </li>
       <li>
         <Link
-          to="#"
+          to="https://www.facebook.com/profile.php?id=100086948316162"
           target="_blank"
           title=""
           className="inline-flex items-center justify-center w-10 h-10 text-gray-900 transition-all duration-200 rounded-full hover:bg-gray-100 focus:outline-none focus:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200"
@@ -277,7 +277,8 @@ function Footer() {
       </li>
       <li>
         <Link
-          to="#"
+          to="https://wa.me/263717577997
+          "
           target="_blank"
           title=""
           className="inline-flex items-center justify-center w-10 h-10 text-gray-900 transition-all duration-200 rounded-full hover:bg-gray-100 focus:outline-none focus:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200"
