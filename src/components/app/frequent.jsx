@@ -5,7 +5,9 @@ import { useState } from 'react';
 
 function FrequentlyAskedQ() {
 
-  
+  const [open, setOpen] = useState(false)
+
+
   return (
     <div>
       <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
@@ -23,6 +25,7 @@ function FrequentlyAskedQ() {
         <button
           type="button"
           className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+          onClic
         >
           <span className="flex text-lg font-semibold text-black">
             {" "}
