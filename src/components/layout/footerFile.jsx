@@ -15,22 +15,22 @@ function Footer() {
     <ul className="flex flex-wrap items-center justify-center space-x-12 md:space-x-16 mt-14">
       <li>
         <Link
-          to="#"
+          to="/home"
           title=""
           className="inline-flex text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600"
         >
           {" "}
-          About{" "}
+          Home{" "}
         </Link>
       </li>
       <li>
         <Link
-          to="#"
+          to="/services"
           title=""
           className="inline-flex text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600"
         >
           {" "}
-          Features{" "}
+          Services{" "}
         </Link>
       </li>
       <li>
@@ -45,22 +45,22 @@ function Footer() {
       </li>
       <li>
         <Link
-          to="#"
+          to="/contact"
           title=""
           className="inline-flex mt-8 -ml-12 text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600 sm:ml-0 sm:mt-0"
         >
           {" "}
-          Support{" "}
+          Contact{" "}
         </Link>
       </li>
       <li>
         <Link
-          to="#"
+          to="/about"
           title=""
           className="inline-flex mt-8 text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600 sm:mt-0"
         >
           {" "}
-          Help{" "}
+          About{" "}
         </Link>
       </li>
     </ul>
@@ -221,7 +221,7 @@ function Footer() {
     <ul className="flex items-center justify-center mt-12 space-x-3">
       <li>
         <Link
-          to="#"
+          to=""
           target="_blank"
           title=""
           className="inline-flex items-center justify-center w-10 h-10 text-gray-900 transition-all duration-200 rounded-full hover:bg-gray-100 focus:outline-none focus:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200"
