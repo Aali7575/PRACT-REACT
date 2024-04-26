@@ -15,7 +15,7 @@ function NavBar() {
         <Link to="#" title="" className="flex">
           <img
             className="w-auto h-8 lg:h-10"
-            src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
+            // src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
             alt=""
           />
         </Link>

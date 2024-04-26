@@ -10,8 +10,7 @@ function OurContactDetails() {
         Contact us
       </h2>
       <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-500">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis.
+        We'd love to hear from you!
       </p>
     </div>
     <div className="max-w-5xl mx-auto mt-12 sm:mt-16">
@@ -33,10 +32,10 @@ function OurContactDetails() {
               />
             </svg>
             <p className="mt-6 text-lg font-medium text-gray-900">
-              +1-316-555-0116
+              +263717577997
             </p>
             <p className="mt-1 text-lg font-medium text-gray-900">
-              +1-446-526-0117
+            +263717577997
             </p>
           </div>
         </div>
@@ -57,10 +56,10 @@ function OurContactDetails() {
               />
             </svg>
             <p className="mt-6 text-lg font-medium text-gray-900">
-              contact@example.com
+              taffyndoro@outlook.com
             </p>
             <p className="mt-1 text-lg font-medium text-gray-900">
-              hr@example.com
+              tafadzwaaaliyahndoro@gmail.com
             </p>
           </div>
         </div>
@@ -87,7 +86,7 @@ function OurContactDetails() {
               />
             </svg>
             <p className="mt-6 text-lg font-medium leading-relaxed text-gray-900">
-              8502 Preston Rd. Ingle, Maine 98380, USA
+              9 St Malo Avenue, Greendale, Harare
             </p>
           </div>
         </div>
@@ -112,7 +111,7 @@ function OurContactDetails() {
                     type="text"
                     name=""
                     id=""
-                    placeholder="Enter your full name"
+                    placeholder="Enter your name"
                     className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                   />
                 </div>
@@ -123,14 +122,14 @@ function OurContactDetails() {
                   className="text-base font-medium text-gray-900"
                 >
                   {" "}
-                  Email address{" "}
+                  Your surname{" "}
                 </label>
                 <div className="mt-2.5 relative">
                   <input
                     type="email"
                     name=""
                     id=""
-                    placeholder="Enter your full name"
+                    placeholder="Enter your surname"
                     className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                   />
                 </div>
@@ -148,7 +147,7 @@ function OurContactDetails() {
                     type="tel"
                     name=""
                     id=""
-                    placeholder="Enter your full name"
+                    placeholder="Please include the country code"
                     className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                   />
                 </div>
@@ -159,14 +158,14 @@ function OurContactDetails() {
                   className="text-base font-medium text-gray-900"
                 >
                   {" "}
-                  Company name{" "}
+                  Email address{" "}
                 </label>
                 <div className="mt-2.5 relative">
                   <input
                     type="text"
                     name=""
                     id=""
-                    placeholder="Enter your full name"
+                    placeholder="Enter your email address"
                     className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                   />
                 </div>
