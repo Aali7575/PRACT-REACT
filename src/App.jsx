@@ -6,6 +6,7 @@ import HomePageFunc from './components/pages/homePage';
 import ContactPages from './components/pages/contactpages';
 import AboutPage from './components/pages/aboutPage';
 import ServicesPage from './components/pages/servicesPage';
+import BookingPage from './components/pages/bookingPage';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
               <Route path = "/contact" element = {<ContactPages/>}/>
               <Route path = "/about" element = {<AboutPage/>}/>
               <Route path = "/services" element = {<ServicesPage/>}/>
+              <Route path = "/book" element = {<BookingPage/>}/>
               </Route> 
             
             

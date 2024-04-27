@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function About() {
   return (
@@ -50,15 +52,15 @@ function About() {
         <p className="mt-6 text-lg leading-relaxed text-gray-600">
           We specialize in Mazda CX-5, Cx-3, Atenza, Demio and Axela (skyactiv) vehicles. To ensure we give each client individualized attention, we require appointments for all service requests. This allows our technicians adequate time to thoroughly address your vehicle's needs.
         </p>
-        <a
-          href="#"
+        <Link
+          to="/book"
           title=""
           className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:opacity-80 focus:opacity-80"
           role="button"
         >
           {" "}
           Book Now{" "}
-        </a>
+        </Link>
       </div>
     </div>
   </div>
