@@ -7,9 +7,10 @@ function Bookings() {
   <div className="flex items-center justify-center w-full h-full px-4 py-5 sm:p-6">
     <div className="w-full max-w-sm bg-white shadow-lg rounded-xl">
       <div className="px-4 py-5 sm:p-6">
-        <p className="text-xl font-bold text-gray-900">Add New User</p>
+        <p className="text-xl font-bold text-gray-900">Book for your slot</p>
         <p className="mt-3 text-sm font-medium text-gray-500">
-          Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
+        Choose a date and time that works for you.
+         Our technicians will ensure your vehicle is properly maintained to keep it running smoothly.
         </p>
         <form action="#" method="POST" className="mt-6">
           <div className="space-y-4">
@@ -32,14 +33,14 @@ function Bookings() {
             <div>
               <label htmlFor="" className="text-sm font-bold text-gray-900">
                 {" "}
-                 Full Name{" "}
+                 Vehicle's registration number{" "}
               </label>
               <div className="mt-2">
                 <input
                   type="text"
                   name=""
                   id=""
-                  placeholder="John Doe"
+                  placeholder="AFZ2222"
                   defaultValue=""
                   className="block w-full px-4 py-3 placeholder-gray-500 border -gray-300 rounded-lg focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm caret-indigo-600"
                 />
@@ -89,7 +90,7 @@ function Bookings() {
               type="submit"
               className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold leading-5 text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 hover:bg-indigo-500"
             >
-              Add
+              Book
             </button>
           </div>
         </form>
