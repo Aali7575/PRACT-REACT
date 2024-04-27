@@ -17,7 +17,7 @@ function Services() {
       <div className="relative bg-[#F5F5F5] overflow-hidden flex flex-col">
         <div className="absolute top-3 right-3">
           <p className="inline-flex items-center justify-center px-2 py-1.5 text-xs font-bold tracking-wide text-white uppercase bg-gray-600 rounded">
-            Sale
+            {/* Sale */}
           </p>
         </div>
         <div className="relative group">
@@ -36,11 +36,11 @@ function Services() {
           </h3>
         </div>
         <p className="mt-2 text-sm font-bold text-gray-500"></p>
-        <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
+        {/* <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
           <div className="w-3 h-3 bg-blue-600 border border-blue-800 rounded-full" />
           <div className="w-3 h-3 bg-yellow-500 border border-yellow-700 rounded-full" />
           <div className="w-3 h-3 bg-red-500 border border-red-800 rounded-full" />
-        </div>
+        </div> */}
         <div className="relative mt-auto">
           <button
             type="button"
@@ -68,10 +68,10 @@ function Services() {
           </h3>
         </div>
         <p className="mt-2 text-sm font-bold text-gray-500">$20.00</p>
-        <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
+        {/* <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
           <div className="w-3 h-3 bg-gray-600 border border-gray-900 rounded-full" />
           <div className="w-3 h-3 bg-yellow-500 border border-yellow-700 rounded-full" />
-        </div>
+        </div> */}
         <div className="relative mt-auto">
           <button
             type="button"
@@ -103,11 +103,11 @@ function Services() {
             </a>
           </h3>
         </div>
-        <p className="mt-2 text-sm font-bold text-gray-500"></p>
-        <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
+        <p className="mt-2 text-sm font-bold text-gray-500 line-through">$0.00</p>
+        {/* <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
           <div className="w-3 h-3 bg-blue-600 border border-blue-800 rounded-full" />
           <div className="w-3 h-3 bg-red-500 border border-red-800 rounded-full" />
-        </div>
+        </div> */}
         <div className="relative mt-auto">
           <button
             type="button"
@@ -134,12 +134,12 @@ function Services() {
             </a>
           </h3>
         </div>
-        <p className="mt-2 text-sm font-bold text-gray-500"></p>
-        <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
+        <p className="mt-2 text-sm font-bold text-gray-500 line-through">$0.00</p>
+        {/* <div className="flex items-center justify-center flex-1 mt-5 space-x-2">
           <div className="w-3 h-3 bg-gray-600 border border-gray-900 rounded-full" />
           <div className="w-3 h-3 bg-orange-200 border rounded-full border-amber-600" />
           <div className="w-3 h-3 bg-white border border-gray-300 rounded-full" />
-        </div>
+        </div> */}
         <div className="relative mt-auto">
           <button
             type="button"

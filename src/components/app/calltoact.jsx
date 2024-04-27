@@ -18,7 +18,7 @@ function CallToAction() {
       Keep your Mazda Skyactiv in top shape
       </h2>
       <p className="mt-4 text-base font-normal leading-7 text-white sm:mt-6">
-      We are the ultimate solution for your MAZDA CX-5,CX-3,ATENZA & AXELA, providing technical services.
+      We are the ultimate solution for your MAZDA CX-5,CX-3,ATENZA, DEMIO & AXELA, providing technical services.
       </p>
       <div className="mt-8 sm:mt-10">
         <a

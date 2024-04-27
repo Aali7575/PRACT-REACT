@@ -33,7 +33,7 @@ function Footer() {
           Services{" "}
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link
           to="#"
           title=""
@@ -42,7 +42,7 @@ function Footer() {
           {" "}
           Works{" "}
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link
           to="/contact"
@@ -275,7 +275,7 @@ function Footer() {
           </svg>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link
           to="https://wa.me/263717577997
           "
@@ -297,10 +297,10 @@ function Footer() {
             />
           </svg>
         </Link>
-      </li>
+      </li> */}
     </ul>
     <p className="text-base font-normal text-center text-gray-600 mt-7 font-pj">
-      © Copyright 2024, All Rights Reserved
+      © Copyright 2024. All Rights Reserved
     </p>
   </div>
 </footer>
