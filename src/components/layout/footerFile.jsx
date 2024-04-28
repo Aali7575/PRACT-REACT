@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
-
+import HomeButton from './homebutton'
+import ServicesButton from './servicesbutton'
+import ContactButton from './contactbutton'
+import AboutButton from './aboutbutton'
 function Footer() {
   return (
     <div>
@@ -14,24 +16,26 @@ function Footer() {
     /> */}
     <ul className="flex flex-wrap items-center justify-center space-x-12 md:space-x-16 mt-14">
       <li>
-        <Link
+      <HomeButton />
+        {/* <Link
           to="/home"
           title=""
           className="inline-flex text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600"
         >
           {" "}
           Home{" "}
-        </Link>
+        </Link> */}
       </li>
       <li>
-        <Link
+        {/* <Link
           to="/services"
           title=""
           className="inline-flex text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600"
         >
           {" "}
           Services{" "}
-        </Link>
+        </Link> */}
+        <ServicesButton/>
       </li>
       {/* <li>
         <Link
@@ -44,24 +48,26 @@ function Footer() {
         </Link>
       </li> */}
       <li>
-        <Link
+        {/* <Link
           to="/contact"
           title=""
           className="inline-flex mt-8 -ml-12 text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600 sm:ml-0 sm:mt-0"
         >
           {" "}
           Contact{" "}
-        </Link>
+        </Link> */}
+        <ContactButton/>
       </li>
       <li>
-        <Link
+        {/* <Link
           to="/about"
           title=""
           className="inline-flex mt-8 text-lg font-medium text-gray-900 transition-all duration-200 transform font-pj hover:-translate-y-1 hover:text-gray-600 sm:mt-0"
         >
           {" "}
           About{" "}
-        </Link>
+        </Link> */}
+        <AboutButton/>
       </li>
     </ul>
     <div className="mt-12">
