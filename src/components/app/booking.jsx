@@ -49,7 +49,7 @@ function Bookings() {
             <div>
               <label htmlFor="" className="text-sm font-bold text-gray-900">
                 {" "}
-                Vehicle's registration number{" "}
+                Email address{" "}
               </label>
               <div className="mt-2">
                 <input
