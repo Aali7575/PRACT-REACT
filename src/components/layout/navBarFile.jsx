@@ -98,36 +98,36 @@ function NavBar() {
     {/* xs to lg */}
     <nav className="flex flex-col py-4 space-y-2 lg:hidden">
       <Link
-        to="#"
+        to="/home"
         title=""
         className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
       >
         {" "}
-        Features{" "}
+        Home{" "}
       </Link>
       <Link
-        to="#"
+        to="/services"
         title=""
         className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
       >
         {" "}
-        Solutions{" "}
+        Services{" "}
       </Link>
       <Link
-        to="#"
+        to="/contact"
         title=""
         className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
       >
         {" "}
-        Resources{" "}
+        Contact{" "}
       </Link>
       <Link
-        to="#"
+        to="/about"
         title=""
         className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
       >
         {" "}
-        Pricing{" "}
+        About{" "}
       </Link>
     </nav>
   </div>
